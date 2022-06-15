@@ -29,6 +29,6 @@ COPY --from=development --chown=nestjs:nodejs /usr/src/app/dist ./dist
 
 USER nestjs
 
-EXPOSE 3000
+EXPOSE 3001
 
 CMD ["node", "dist/main"]
